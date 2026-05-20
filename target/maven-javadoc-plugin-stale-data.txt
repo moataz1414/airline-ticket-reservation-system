@@ -1,0 +1,53 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+--no-fonts
+-classpath
+'C:/Users/ACER/.m2/repository/org/xerial/sqlite-jdbc/3.45.3.0/sqlite-jdbc-3.45.3.0.jar;C:/Users/ACER/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar'
+-encoding
+'UTF-8'
+-protected
+--release
+17
+-sourcepath
+'C:/Users/ACER/Documents/NetBeansProjects/mavenproject1/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/ACER/Documents/NetBeansProjects/mavenproject1/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'mavenproject1 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'mavenproject1 1.0-SNAPSHOT API'
+database
+gui
+interfaces
+manager
+model
+test
+C:\Users\ACER\.m2\repository\org\xerial\sqlite-jdbc\3.45.3.0\sqlite-jdbc-3.45.3.0.jar = 1779245358665
+C:\Users\ACER\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar = 1779240820919
+C:\Users\ACER\Documents\NetBeansProjects\mavenproject1\src\main\java = 1779291114771
+C:\Users\ACER\Documents\NetBeansProjects\mavenproject1\target\reports\apidocs\allclasses-index.html = 1779296440791
+C:\Users\ACER\Documents\NetBeansProjects\mavenproject1\target\reports\apidocs\allpackages-index.html = 1779296440798
+C:\Users\ACER\Documents\NetBeansProjects\mavenproject1\target\reports\apidocs\element-list = 1779296440407
+C:\Users\ACER\Documents\NetBeansProjects\mavenproject1\target\reports\apidocs\help-doc.html = 1779296440870
+C:\Users\ACER\Documents\NetBeansProjects\mavenproject1\target\reports\apidocs\index-all.html = 1779296440848
+C:\Users\ACER\Documents\NetBeansProjects\mavenproject1\target\reports\apidocs\index.html = 1779296440757
+C:\Users\ACER\Documents\NetBeansProjects\mavenproject1\target\reports\apidocs\member-search-index.js = 1779296440810
+C:\Users\ACER\Documents\NetBeansProjects\mavenproject1\target\reports\apidocs\module-search-index.js = 1779296440801
+C:\Users\ACER\Documents\NetBeansProjects\mavenproject1\target\reports\apidocs\overview-summary.html = 1779296440860
+C:\Users\ACER\Documents\NetBeansProjects\mavenproject1\target\reports\apidocs\overview-tree.html = 1779296440748
+C:\Users\ACER\Documents\NetBeansProjects\mavenproject1\target\reports\apidocs\package-search-index.js = 1779296440804
+C:\Users\ACER\Documents\NetBeansProjects\mavenproject1\target\reports\apidocs\search.html = 1779296440854
+C:\Users\ACER\Documents\NetBeansProjects\mavenproject1\target\reports\apidocs\serialized-form.html = 1779296440569
+C:\Users\ACER\Documents\NetBeansProjects\mavenproject1\target\reports\apidocs\tag-search-index.js = 1779296440812
+C:\Users\ACER\Documents\NetBeansProjects\mavenproject1\target\reports\apidocs\type-search-index.js = 1779296440806

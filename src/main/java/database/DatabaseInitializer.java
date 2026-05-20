@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.Statement;
 
 /**
- * Creates database tables automatically.
+ * Creates all database tables.
  */
 public class DatabaseInitializer {
 
@@ -16,7 +16,7 @@ public class DatabaseInitializer {
             Statement stmt = conn.createStatement();
 
             // USERS TABLE
-            String usersTable = """
+            String users = """
                 CREATE TABLE IF NOT EXISTS users (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     name TEXT NOT NULL,
@@ -27,7 +27,7 @@ public class DatabaseInitializer {
             """;
 
             // FLIGHTS TABLE
-            String flightsTable = """
+            String flights = """
                 CREATE TABLE IF NOT EXISTS flights (
                     flight_id INTEGER PRIMARY KEY AUTOINCREMENT,
                     airline_name TEXT,
@@ -41,7 +41,7 @@ public class DatabaseInitializer {
             """;
 
             // RESERVATIONS TABLE
-            String reservationsTable = """
+            String reservations = """
                 CREATE TABLE IF NOT EXISTS reservations (
                     reservation_id INTEGER PRIMARY KEY AUTOINCREMENT,
                     reservation_date TEXT,
@@ -52,7 +52,7 @@ public class DatabaseInitializer {
             """;
 
             // TICKETS TABLE
-            String ticketsTable = """
+            String tickets = """
                 CREATE TABLE IF NOT EXISTS tickets (
                     ticket_id INTEGER PRIMARY KEY AUTOINCREMENT,
                     ticket_number TEXT,
@@ -62,11 +62,11 @@ public class DatabaseInitializer {
                 );
             """;
 
-            // EXECUTE TABLES
-            stmt.execute(usersTable);
-            stmt.execute(flightsTable);
-            stmt.execute(reservationsTable);
-            stmt.execute(ticketsTable);
+            // EXECUTE
+            stmt.execute(users);
+            stmt.execute(flights);
+            stmt.execute(reservations);
+            stmt.execute(tickets);
 
             System.out.println("Tables created successfully!");
 
