@@ -9,10 +9,10 @@ import java.sql.SQLException;
  */
 public class DatabaseConnection {
 
-    private static final String URL = "jdbc:sqlite:C:/Users/ACER/Documents/NetBeansProjects/mavenproject1/airline.db";
-    
+    //private static final String URL = "jdbc:sqlite:C:/Users/zezoa/OneDrive/المستندات/NetBeansProjects/airline-ticket-reservation-system/airline.db";
+    private static final String URL = "jdbc:sqlite:airline.db";
     private static Connection connection = null;
-
+  
     /**
      * Open connection to database
      */
