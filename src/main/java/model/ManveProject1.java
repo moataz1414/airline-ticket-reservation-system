@@ -14,7 +14,7 @@ public class  ManveProject1{
         //System.out.println("System Ready!");
        UserManager um = new UserManager();
         um.register("Test User", "test@gmail.com", "1234", "customer");
-        System.out.println("Hello");
+        System.out.println("Version 2");
 
 
 }
