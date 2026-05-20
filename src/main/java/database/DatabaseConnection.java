@@ -16,7 +16,7 @@ public class DatabaseConnection {
      * Open connection to database
      */
     public static Connection connect() {
-        
+        System.out.println("database.DatabaseConnection.connect()");
 
         try {
             if (connection == null || connection.isClosed()) {
